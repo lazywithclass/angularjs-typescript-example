@@ -1,0 +1,22 @@
+{
+  "name": "angularjs-typescript-example",
+  "version": "1.0.0",
+  "description": "A starting point for a TypeScript AngularJS project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lazywithclass/angularjs-typescript-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lazywithclass/angularjs-typescript-example/issues"
+  },
+  "homepage": "https://github.com/lazywithclass/angularjs-typescript-example#readme",
+  "devDependencies": {
+    "@types/angular": "^1.6.54"
+  }
+}

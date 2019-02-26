@@ -1,0 +1,18 @@
+.family-member {
+  text-align: center;
+  width: 15%;
+  padding: 5px;
+  margin: 5px;
+}
+
+.grandpa {
+  border: 1px solid gray;
+}
+
+.mommy {
+  border: 1px solid blue;
+}
+
+.son {
+  border: 1px solid green;
+}
