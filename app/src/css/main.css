@@ -5,6 +5,10 @@
   margin: 5px;
 }
 
+.called {
+  background-color: red;
+}
+
 .grandpa {
   border: 1px solid gray;
 }
