@@ -7,11 +7,8 @@ angular.module('family').component('mommy', {
       </div>
     </div>
   `,
-  controller: function($rootScope) {
-    this.$onInit = () => this.show = false
-
-    $rootScope.$on('toggle:mommy', () => this.show = !this.show)
-
-    this.toggleSon = () => $rootScope.$broadcast('toggle:son')
+  controller: function(Store) {
+    Store.subscribe(() => this.show = Store.getState().mommy.show)
+    this.toggleSon = () => Store.dispatch({ type: 'toggle:son' })
   }
 })

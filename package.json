@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/lazywithclass/angularjs-typescript-example#readme",
   "devDependencies": {
-    "@types/angular": "^1.6.54"
+    "@types/angular": "^1.6.54",
+    "redux": "^4.0.1"
   }
 }

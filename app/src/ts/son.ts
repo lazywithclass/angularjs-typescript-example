@@ -7,11 +7,8 @@ angular.module('family').component('son', {
       </div>
     </div>
   `,
-  controller: function($rootScope) {
-    this.$onInit = () => this.show = false
-
-    $rootScope.$on('toggle:son', () => this.show = !this.show)
-
-    this.callGrandpa = () => $rootScope.$broadcast('call:grandpa')
+  controller: function(Store) {
+    Store.subscribe(() => this.show = Store.getState().son.show)
+    this.callGrandpa = () => Store.dispatch({ type: 'call:grandpa' })
   }
 })
