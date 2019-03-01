@@ -1,10 +1,11 @@
 ## angularjs-typescript-example
 
-A starting point for a TypeScript AngularJS project.
+A starting point for a TypeScript AngularJS project, doesn't use a bundler or anything complicated; I am trying to KISS
+to expose architecture decisions and patterns over tools.
 
 Could also be used as an exercise:
 
-> show how to do component communication
+> Requirement: show how to do component communication
 
 ### First approach
 
